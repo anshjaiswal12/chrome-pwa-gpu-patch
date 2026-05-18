@@ -4,7 +4,7 @@ An automated utility script and diagnostic framework to resolve rendering crashe
 
 ---
 
-## 🔍 The Problem
+##  The Problem
 
 When running graphics-heavy HTML5 Canvas workflows (e.g., **Conceptboard**, **Canva**, or **Figma**) in Google Chrome on Arch Linux under Wayland with AMD integrated graphics, the browser will frequently crash with a `SIGSEGV` signal in the Mesa Gallium OpenGL state tracker (`libgallium-*.so`).
 
@@ -15,7 +15,7 @@ When running graphics-heavy HTML5 Canvas workflows (e.g., **Conceptboard**, **Ca
 
 ---
 
-## 🛠️ The Solution
+##  The Solution
 
 This repository provides a two-part solution:
 
@@ -33,7 +33,7 @@ The utility script `fix_chrome_pwa_flags.sh` automatically detects all your inst
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Clone this repository**:
    ```bash
@@ -55,7 +55,7 @@ The script will safely backup all your PWA files to `~/antigravity_gpu_debug/pwa
 
 ---
 
-## 📊 Technical Diagnostics & Forensics
+##  Technical Diagnostics & Forensics
 
 For a deep dive into the system diagnostics, backtrace symbols, and VRAM memory exhaustion proof, please read our comprehensive [Technical Debugging & Forensic Report](technical_report.md).
 
