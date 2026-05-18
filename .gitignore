@@ -1,0 +1,5 @@
+# System logs & local diagnostics
+Error log.txt
+antigravity_gpu_debug/
+*.log
+*.bak
